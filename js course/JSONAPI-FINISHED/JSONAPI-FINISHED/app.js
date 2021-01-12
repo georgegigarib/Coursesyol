@@ -14,7 +14,6 @@ function loadPosts() {
                const response = JSON.parse( this.responseText );
 
                // print the contents
-               console.log(this.responseText);
                let output = '';
 
                response.forEach(function(post) {
